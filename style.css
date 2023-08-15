@@ -245,7 +245,9 @@ main{
 .work1, .work2, .work3{
     display: flex;
     margin-left: 148px;
-    margin-bottom: 46px;
+    padding-bottom: 20px;
+    margin-top: 31px;
+    border-bottom: 1px solid #E0E0E0;
 }
 
 .desc1, .desc2, .desc3{
@@ -298,35 +300,6 @@ main{
     font-weight: 400;
 }
 
-.work1::after{
-    content: "";
-    display: block;
-    width: 858px;
-    height: 0;
-    border-bottom: 1px solid #E0E0E0;
-    position: absolute;
-    bottom: -660px;
-}
-
-.work2::after{
-    content: "";
-    display: block;
-    width: 858px;
-    height: 0;
-    border-bottom: 1px solid #E0E0E0;
-    position: absolute;
-    bottom: -900px;
-}
-
-.work3::after{
-    content: "";
-    display: block;
-    width: 858px;
-    height: 0;
-    border-bottom: 1px solid #E0E0E0;
-    position: absolute;
-    bottom: -1140px;
-}
 
 footer{
     height: 182px;
